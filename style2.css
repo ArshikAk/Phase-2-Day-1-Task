@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+
+}
+
+@media only screen  and (max-width : 768px){
+
+    .box{
+        height: 100px;
+        width: 100px;
+    }
+    
+}
+
